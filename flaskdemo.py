@@ -1,7 +1,6 @@
 import json
 from repository import Repository
-from flask import Flask, request, session, g, redirect, url_for, abort, \
-     render_template, flash, jsonify, Response
+from flask import Flask, request, g, abort, jsonify, Response
 
 
 # default configuration
